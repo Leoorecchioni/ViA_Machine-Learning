@@ -1,0 +1,1152 @@
+[
+  {
+    "type_voyage": "ville",
+    "climat": "chaud",
+    "duree": 15,
+    "objets": [
+      "sac à dos",
+      "lunettes",
+      "chargeur",
+      "chaussures confortables",
+      "guide",
+      "casquette"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 6,
+    "objets": [
+      "paréo",
+      "short",
+      "maillot",
+      "crème solaire",
+      "tongs",
+      "serviette",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 12,
+    "objets": [
+      "bonnet",
+      "chaussures de randonnée",
+      "veste",
+      "lampe torche",
+      "sac à dos"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "tempéré",
+    "duree": 8,
+    "objets": [
+      "bottes",
+      "veste légère",
+      "lampe torche"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 5,
+    "objets": [
+      "casquette",
+      "lunettes",
+      "guide"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 16,
+    "objets": [
+      "serviette",
+      "paréo",
+      "lunettes",
+      "maillot"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "chaud",
+    "duree": 8,
+    "objets": [
+      "guide",
+      "chargeur",
+      "sac à dos",
+      "casquette",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "froid",
+    "duree": 4,
+    "objets": [
+      "gants",
+      "sac à dos",
+      "chaussures de randonnée",
+      "veste",
+      "lampe torche"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "tempéré",
+    "duree": 16,
+    "objets": [
+      "ordinateur",
+      "chemise",
+      "pantalon",
+      "badge",
+      "sacoche"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "froid",
+    "duree": 16,
+    "objets": [
+      "sac de couchage",
+      "chargeur voiture",
+      "glacière"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 11,
+    "objets": [
+      "lampe torche",
+      "bonnet",
+      "sac à dos",
+      "gants"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 3,
+    "objets": [
+      "chargeur",
+      "chaussures confortables",
+      "sac à dos"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "tempéré",
+    "duree": 19,
+    "objets": [
+      "badge",
+      "chargeur",
+      "ordinateur",
+      "pantalon"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "chaud",
+    "duree": 17,
+    "objets": [
+      "casquette",
+      "sac à dos",
+      "guide",
+      "chargeur"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "froid",
+    "duree": 8,
+    "objets": [
+      "chaussures de randonnée",
+      "bonnet",
+      "veste"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 8,
+    "objets": [
+      "lampe torche",
+      "bottes",
+      "veste légère"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "tempéré",
+    "duree": 5,
+    "objets": [
+      "coussin",
+      "sac de couchage",
+      "glacière"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "froid",
+    "duree": 4,
+    "objets": [
+      "ordinateur",
+      "sacoche",
+      "chargeur",
+      "badge"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "froid",
+    "duree": 17,
+    "objets": [
+      "paréo",
+      "short",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "chaud",
+    "duree": 21,
+    "objets": [
+      "lampe torche",
+      "gants",
+      "veste",
+      "bonnet"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 6,
+    "objets": [
+      "chaussures confortables",
+      "lunettes",
+      "guide",
+      "chargeur",
+      "casquette"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 21,
+    "objets": [
+      "sac à dos",
+      "chaussures confortables",
+      "chargeur",
+      "guide",
+      "lunettes",
+      "casquette"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "froid",
+    "duree": 6,
+    "objets": [
+      "veste légère",
+      "panier pique-nique",
+      "bottes",
+      "répulsif insectes"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 7,
+    "objets": [
+      "bonnet",
+      "gants",
+      "veste",
+      "chaussures de randonnée"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "chaud",
+    "duree": 11,
+    "objets": [
+      "chargeur",
+      "guide",
+      "chaussures confortables"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 8,
+    "objets": [
+      "guide",
+      "lunettes",
+      "casquette",
+      "sac à dos",
+      "chaussures confortables"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 17,
+    "objets": [
+      "lunettes",
+      "tongs",
+      "serviette",
+      "paréo",
+      "short",
+      "crème solaire",
+      "maillot"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 21,
+    "objets": [
+      "sac à dos",
+      "guide",
+      "chargeur",
+      "chaussures confortables"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 15,
+    "objets": [
+      "lunettes",
+      "sac à dos",
+      "guide",
+      "chargeur",
+      "casquette",
+      "chaussures confortables"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "chaud",
+    "duree": 15,
+    "objets": [
+      "badge",
+      "chargeur",
+      "pantalon",
+      "sacoche"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 16,
+    "objets": [
+      "maillot",
+      "short",
+      "crème solaire",
+      "paréo",
+      "serviette",
+      "tongs"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "chaud",
+    "duree": 3,
+    "objets": [
+      "chargeur",
+      "sacoche",
+      "pantalon",
+      "ordinateur",
+      "chemise"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 15,
+    "objets": [
+      "casquette",
+      "sac à dos",
+      "chargeur",
+      "chaussures confortables"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "froid",
+    "duree": 2,
+    "objets": [
+      "pantalon",
+      "chargeur",
+      "ordinateur"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "froid",
+    "duree": 19,
+    "objets": [
+      "bottes",
+      "lampe torche",
+      "panier pique-nique"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "froid",
+    "duree": 17,
+    "objets": [
+      "bottes",
+      "répulsif insectes",
+      "veste légère"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 10,
+    "objets": [
+      "bottes",
+      "panier pique-nique",
+      "répulsif insectes"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 9,
+    "objets": [
+      "panier pique-nique",
+      "lampe torche",
+      "répulsif insectes",
+      "bottes",
+      "veste légère"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "tempéré",
+    "duree": 17,
+    "objets": [
+      "bottes",
+      "répulsif insectes",
+      "panier pique-nique",
+      "veste légère"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 9,
+    "objets": [
+      "lunettes",
+      "chargeur",
+      "casquette",
+      "guide",
+      "chaussures confortables",
+      "sac à dos"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "chaud",
+    "duree": 8,
+    "objets": [
+      "ordinateur",
+      "badge",
+      "chemise",
+      "chargeur",
+      "pantalon"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 8,
+    "objets": [
+      "tongs",
+      "maillot",
+      "paréo",
+      "short"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 4,
+    "objets": [
+      "paréo",
+      "crème solaire",
+      "lunettes",
+      "short",
+      "serviette",
+      "tongs",
+      "maillot"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "chaud",
+    "duree": 6,
+    "objets": [
+      "chargeur",
+      "lunettes",
+      "guide",
+      "chaussures confortables",
+      "casquette"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "froid",
+    "duree": 21,
+    "objets": [
+      "gants",
+      "bonnet",
+      "veste",
+      "sac à dos"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 17,
+    "objets": [
+      "lunettes",
+      "short",
+      "paréo",
+      "tongs",
+      "serviette"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "chaud",
+    "duree": 16,
+    "objets": [
+      "chargeur voiture",
+      "carte",
+      "glacière",
+      "sac de couchage",
+      "coussin"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "chaud",
+    "duree": 14,
+    "objets": [
+      "casquette",
+      "lunettes",
+      "chargeur"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 10,
+    "objets": [
+      "crème solaire",
+      "tongs",
+      "serviette",
+      "lunettes",
+      "short"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "froid",
+    "duree": 12,
+    "objets": [
+      "sac de couchage",
+      "carte",
+      "coussin",
+      "chargeur voiture",
+      "glacière"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 7,
+    "objets": [
+      "short",
+      "crème solaire",
+      "lunettes",
+      "tongs",
+      "serviette",
+      "maillot",
+      "paréo"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 3,
+    "objets": [
+      "veste légère",
+      "bottes",
+      "lampe torche",
+      "répulsif insectes",
+      "panier pique-nique"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "chaud",
+    "duree": 2,
+    "objets": [
+      "sac de couchage",
+      "carte",
+      "glacière"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "chaud",
+    "duree": 7,
+    "objets": [
+      "sac à dos",
+      "gants",
+      "bonnet",
+      "chaussures de randonnée",
+      "veste",
+      "lampe torche"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 12,
+    "objets": [
+      "tongs",
+      "crème solaire",
+      "short",
+      "paréo",
+      "maillot",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "tempéré",
+    "duree": 4,
+    "objets": [
+      "chargeur",
+      "ordinateur",
+      "chemise"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 18,
+    "objets": [
+      "veste",
+      "gants",
+      "lampe torche",
+      "bonnet",
+      "sac à dos"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "tempéré",
+    "duree": 6,
+    "objets": [
+      "ordinateur",
+      "chargeur",
+      "pantalon",
+      "chemise"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "tempéré",
+    "duree": 8,
+    "objets": [
+      "glacière",
+      "coussin",
+      "chargeur voiture",
+      "carte",
+      "sac de couchage"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "froid",
+    "duree": 10,
+    "objets": [
+      "crème solaire",
+      "maillot",
+      "tongs",
+      "serviette",
+      "paréo",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "chaud",
+    "duree": 19,
+    "objets": [
+      "coussin",
+      "glacière",
+      "chargeur voiture",
+      "sac de couchage",
+      "carte"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "chaud",
+    "duree": 4,
+    "objets": [
+      "pantalon",
+      "chemise",
+      "badge",
+      "sacoche"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "chaud",
+    "duree": 13,
+    "objets": [
+      "carte",
+      "glacière",
+      "sac de couchage"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 11,
+    "objets": [
+      "serviette",
+      "maillot",
+      "short",
+      "crème solaire"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "froid",
+    "duree": 5,
+    "objets": [
+      "glacière",
+      "carte",
+      "sac de couchage",
+      "chargeur voiture"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "tempéré",
+    "duree": 3,
+    "objets": [
+      "ordinateur",
+      "pantalon",
+      "badge"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "froid",
+    "duree": 19,
+    "objets": [
+      "bonnet",
+      "veste",
+      "chaussures de randonnée",
+      "gants"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "froid",
+    "duree": 12,
+    "objets": [
+      "crème solaire",
+      "lunettes",
+      "serviette",
+      "tongs",
+      "short",
+      "paréo",
+      "maillot"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 17,
+    "objets": [
+      "chaussures confortables",
+      "lunettes",
+      "casquette",
+      "guide",
+      "sac à dos",
+      "chargeur"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 16,
+    "objets": [
+      "tongs",
+      "serviette",
+      "short",
+      "maillot",
+      "crème solaire",
+      "paréo",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 9,
+    "objets": [
+      "paréo",
+      "crème solaire",
+      "short",
+      "maillot",
+      "lunettes",
+      "serviette"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 12,
+    "objets": [
+      "panier pique-nique",
+      "répulsif insectes",
+      "veste légère",
+      "lampe torche"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 19,
+    "objets": [
+      "lunettes",
+      "chaussures confortables",
+      "chargeur",
+      "sac à dos",
+      "guide",
+      "casquette"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "froid",
+    "duree": 19,
+    "objets": [
+      "carte",
+      "chargeur voiture",
+      "glacière"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 11,
+    "objets": [
+      "sac à dos",
+      "chaussures confortables",
+      "chargeur",
+      "casquette",
+      "guide"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 17,
+    "objets": [
+      "veste",
+      "chaussures de randonnée",
+      "sac à dos"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 13,
+    "objets": [
+      "guide",
+      "sac à dos",
+      "casquette",
+      "chaussures confortables"
+    ]
+  },
+  {
+    "type_voyage": "roadtrip",
+    "climat": "tempéré",
+    "duree": 21,
+    "objets": [
+      "chargeur voiture",
+      "carte",
+      "glacière",
+      "coussin"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 3,
+    "objets": [
+      "sac à dos",
+      "chaussures de randonnée",
+      "gants"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 7,
+    "objets": [
+      "sac à dos",
+      "bonnet",
+      "gants",
+      "chaussures de randonnée"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "froid",
+    "duree": 19,
+    "objets": [
+      "badge",
+      "sacoche",
+      "chargeur",
+      "ordinateur",
+      "chemise",
+      "pantalon"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "froid",
+    "duree": 5,
+    "objets": [
+      "sacoche",
+      "badge",
+      "pantalon"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 10,
+    "objets": [
+      "short",
+      "serviette",
+      "tongs",
+      "paréo",
+      "maillot",
+      "crème solaire"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "tempéré",
+    "duree": 4,
+    "objets": [
+      "panier pique-nique",
+      "bottes",
+      "lampe torche"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 21,
+    "objets": [
+      "casquette",
+      "chargeur",
+      "sac à dos",
+      "chaussures confortables",
+      "lunettes",
+      "guide"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "tempéré",
+    "duree": 11,
+    "objets": [
+      "chargeur",
+      "pantalon",
+      "chemise",
+      "ordinateur",
+      "badge",
+      "sacoche"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "tempéré",
+    "duree": 6,
+    "objets": [
+      "lampe torche",
+      "veste légère",
+      "répulsif insectes",
+      "bottes"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 2,
+    "objets": [
+      "gants",
+      "sac à dos",
+      "bonnet"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 12,
+    "objets": [
+      "serviette",
+      "maillot",
+      "crème solaire",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "tempéré",
+    "duree": 8,
+    "objets": [
+      "répulsif insectes",
+      "bottes",
+      "veste légère",
+      "lampe torche"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "froid",
+    "duree": 15,
+    "objets": [
+      "short",
+      "crème solaire",
+      "paréo"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "tempéré",
+    "duree": 17,
+    "objets": [
+      "badge",
+      "sacoche",
+      "chemise",
+      "ordinateur",
+      "pantalon",
+      "chargeur"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "froid",
+    "duree": 8,
+    "objets": [
+      "crème solaire",
+      "short",
+      "lunettes",
+      "tongs"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 21,
+    "objets": [
+      "gants",
+      "chaussures de randonnée",
+      "lampe torche",
+      "veste",
+      "bonnet"
+    ]
+  },
+  {
+    "type_voyage": "affaires",
+    "climat": "chaud",
+    "duree": 10,
+    "objets": [
+      "chemise",
+      "sacoche",
+      "pantalon",
+      "badge",
+      "ordinateur",
+      "chargeur"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 18,
+    "objets": [
+      "short",
+      "serviette",
+      "lunettes",
+      "maillot"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "chaud",
+    "duree": 11,
+    "objets": [
+      "lampe torche",
+      "veste",
+      "chaussures de randonnée"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "tempéré",
+    "duree": 5,
+    "objets": [
+      "panier pique-nique",
+      "répulsif insectes",
+      "bottes",
+      "lampe torche"
+    ]
+  },
+  {
+    "type_voyage": "ville",
+    "climat": "froid",
+    "duree": 2,
+    "objets": [
+      "chargeur",
+      "chaussures confortables",
+      "sac à dos",
+      "guide",
+      "casquette",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 7,
+    "objets": [
+      "crème solaire",
+      "paréo",
+      "serviette",
+      "tongs",
+      "lunettes",
+      "short"
+    ]
+  }
+]
