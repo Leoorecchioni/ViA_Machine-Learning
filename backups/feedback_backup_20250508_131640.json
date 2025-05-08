@@ -1,0 +1,13 @@
+[
+  {
+    "travel_type": "countryside",
+    "climate": "temperate",
+    "duration": 5,
+    "items": [
+      "boots",
+      "flashlight",
+      "insect repellent",
+      "picnic basket"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "travel_type": "beach",
+    "climate": "hot",
+    "duration": 1,
+    "items": [
+      "flip-flops",
+      "sarong",
+      "shorts",
+      "sunglasses",
+      "sunscreen",
+      "swimsuit",
+      "towel"
+    ]
+  }
+]

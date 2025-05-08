@@ -1,0 +1,63 @@
+[
+  {
+    "travel_type": "road trip",
+    "climate": "cold",
+    "duration": 7,
+    "items": [
+      "car charger",
+      "cooler",
+      "map",
+      "sleeping bag"
+    ]
+  },
+  {
+    "travel_type": "road trip",
+    "climate": "temperate",
+    "duration": 7,
+    "items": [
+      "car charger",
+      "cooler",
+      "map",
+      "pillow",
+      "sleeping bag"
+    ]
+  },
+  {
+    "travel_type": "mountain",
+    "climate": "hot",
+    "duration": 7,
+    "items": [
+      "backpack",
+      "beanie",
+      "flashlight",
+      "gants",
+      "hiking boots",
+      "jacket"
+    ]
+  },
+  {
+    "travel_type": "beach",
+    "climate": "hot",
+    "duration": 7,
+    "items": [
+      "flip-flops",
+      "sarong",
+      "shorts",
+      "sunglasses",
+      "sunscreen",
+      "swimsuit",
+      "towel"
+    ]
+  },
+  {
+    "travel_type": "beach",
+    "climate": "temperate",
+    "duration": 7,
+    "items": [
+      "flip-flops",
+      "sarong",
+      "shorts",
+      "swimsuit"
+    ]
+  }
+]
