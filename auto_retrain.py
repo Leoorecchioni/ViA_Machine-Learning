@@ -32,10 +32,10 @@ def load_data():
     # Rename keys to match English format
     def transform(entry):
         return {
-            "travel_type": entry.get("type_voyage", entry.get("travel_type")),
-            "climate": entry.get("climat", entry.get("climate")),
-            "duration": entry.get("duree", entry.get("duration")),
-            "items": entry.get("objets", entry.get("items"))
+            "travel_type": entry.get("travel_type", entry.get("travel_type")),
+            "climate": entry.get("climate", entry.get("climate")),
+            "duration": entry.get("duration", entry.get("duration")),
+            "items": entry.get("items", entry.get("items"))
         }
 
     return [transform(d) for d in original + feedback], [transform(fb) for fb in feedback]

@@ -1,0 +1,25 @@
+[
+  {
+    "travel_type": "mountain",
+    "climate": "hot",
+    "duration": 7,
+    "items": [
+      "backpack",
+      "beanie",
+      "flashlight",
+      "gants",
+      "hiking boots",
+      "jacket"
+    ]
+  },
+  {
+    "travel_type": "countryside",
+    "climate": "hot",
+    "duration": 7,
+    "items": [
+      "boots",
+      "flashlight",
+      "light jacket"
+    ]
+  }
+]

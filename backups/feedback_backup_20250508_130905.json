@@ -1,0 +1,37 @@
+[
+  {
+    "travel_type": "mountain",
+    "climate": "temperate",
+    "duration": 7,
+    "items": [
+      "backpack",
+      "beanie",
+      "flashlight",
+      "gants",
+      "hiking boots",
+      "jacket"
+    ]
+  },
+  {
+    "travel_type": "mountain",
+    "climate": "temperate",
+    "duration": 7,
+    "items": [
+      "backpack",
+      "beanie",
+      "gants",
+      "hiking boots"
+    ]
+  },
+  {
+    "travel_type": "mountain",
+    "climate": "temperate",
+    "duration": 7,
+    "items": [
+      "backpack",
+      "beanie",
+      "gants",
+      "hiking boots"
+    ]
+  }
+]

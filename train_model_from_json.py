@@ -12,10 +12,10 @@ with open("packing_data.json", "r", encoding="utf-8") as f:
 
 # Rename keys to English if necessary
 for entry in data:
-    entry["travel_type"] = entry.pop("type_voyage")
-    entry["climate"] = entry.pop("climat")
-    entry["duration"] = entry.pop("duree")
-    entry["items"] = entry.pop("objets")
+    entry["travel_type"] = entry.pop("travel_type")
+    entry["climate"] = entry.pop("climate")
+    entry["duration"] = entry.pop("duration")
+    entry["items"] = entry.pop("items")
 
 # Create a DataFrame
 df = pd.DataFrame(data)
