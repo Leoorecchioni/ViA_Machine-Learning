@@ -1,0 +1,25 @@
+[
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 3,
+    "objets": [
+      "maillot",
+      "paréo",
+      "short",
+      "tongs"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 3,
+    "objets": [
+      "bottes",
+      "lampe torche",
+      "panier pique-nique",
+      "répulsif insectes",
+      "veste légère"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type_voyage": "plage",
+    "climat": "tempéré",
+    "duree": 5,
+    "objets": [
+      "maillot",
+      "paréo",
+      "short",
+      "tongs"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 10,
+    "objets": [
+      "crème solaire",
+      "maillot",
+      "serviette",
+      "short"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 7,
+    "objets": [
+      "bottes",
+      "lampe torche",
+      "veste légère"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 7,
+    "objets": [
+      "bottes",
+      "lampe torche",
+      "veste légère"
+    ]
+  },
+  {
+    "type_voyage": "campagne",
+    "climat": "chaud",
+    "duree": 7,
+    "objets": [
+      "bottes",
+      "lampe torche",
+      "veste légère"
+    ]
+  }
+]

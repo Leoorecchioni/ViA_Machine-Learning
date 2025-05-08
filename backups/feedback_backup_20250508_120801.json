@@ -1,0 +1,26 @@
+[
+  {
+    "type_voyage": "ville",
+    "climat": "tempéré",
+    "duree": 5,
+    "objets": [
+      "casquette",
+      "guide",
+      "lunettes"
+    ]
+  },
+  {
+    "type_voyage": "plage",
+    "climat": "chaud",
+    "duree": 4,
+    "objets": [
+      "crème solaire",
+      "lunettes",
+      "maillot",
+      "paréo",
+      "serviette",
+      "short",
+      "tongs"
+    ]
+  }
+]

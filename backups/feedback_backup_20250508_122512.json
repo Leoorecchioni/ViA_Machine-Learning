@@ -1,0 +1,13 @@
+[
+  {
+    "type_voyage": "montagne",
+    "climat": "froid",
+    "duree": 7,
+    "objets": [
+      "bonnet",
+      "chaussures de randonnée",
+      "gants",
+      "veste"
+    ]
+  }
+]

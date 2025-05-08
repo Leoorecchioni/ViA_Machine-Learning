@@ -1,0 +1,14 @@
+[
+  {
+    "type_voyage": "roadtrip",
+    "climat": "tempéré",
+    "duree": 10,
+    "objets": [
+      "carte",
+      "chargeur voiture",
+      "coussin",
+      "glacière",
+      "sac de couchage"
+    ]
+  }
+]

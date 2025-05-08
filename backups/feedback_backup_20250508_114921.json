@@ -1,0 +1,23 @@
+[
+  {
+    "type_voyage": "montagne",
+    "climat": "chaud",
+    "duree": 10,
+    "objets": [
+      "chaussures de randonnée",
+      "lampe torche",
+      "veste"
+    ]
+  },
+  {
+    "type_voyage": "montagne",
+    "climat": "tempéré",
+    "duree": 10,
+    "objets": [
+      "bonnet",
+      "gants",
+      "lampe torche",
+      "sac à dos"
+    ]
+  }
+]
