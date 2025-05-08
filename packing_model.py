@@ -8,69 +8,69 @@ from sklearn.multioutput import MultiOutputClassifier
 import joblib
 
 # -------------------------------
-# 1. Génération du dataset synthétique
+# 1. Synthetic dataset generation
 # -------------------------------
 
-types_voyage = ["plage", "montagne", "ville", "affaires"]
-climats = ["chaud", "froid", "tempéré"]
-objets_possibles = {
-    "plage": ["maillot", "crème solaire", "lunettes", "short", "serviette"],
-    "montagne": ["veste", "bottes", "gants", "bonnet", "sac de randonnée"],
-    "ville": ["chaussures confort", "guide", "sac à dos", "appareil photo"],
-    "affaires": ["costume", "ordinateur", "chargeur", "documents"]
+travel_types = ["beach", "mountain", "city", "business"]
+climates = ["hot", "cold", "temperate"]
+possible_items = {
+    "beach": ["swimsuit", "sunscreen", "sunglasses", "shorts", "towel"],
+    "mountain": ["jacket", "boots", "gloves", "hat", "hiking bag"],
+    "city": ["comfortable shoes", "guidebook", "backpack", "camera"],
+    "business": ["suit", "laptop", "charger", "documents"]
 }
 
-def generer_exemple():
-    type_v = random.choice(types_voyage)
-    climat = random.choice(climats)
-    duree = random.randint(2, 14)
+def generate_example():
+    travel_type = random.choice(travel_types)
+    climate = random.choice(climates)
+    duration = random.randint(2, 14)
 
-    objets = set(objets_possibles.get(type_v, []))
+    items = set(possible_items.get(travel_type, []))
 
-    # Ajouter quelques objets génériques
-    if duree > 5:
-        objets.add("lessive")
-    objets.add("brosse à dents")
-    objets.add("chargeur")
+    # Add some generic items
+    if duration > 5:
+        items.add("laundry detergent")
+    items.add("toothbrush")
+    items.add("charger")
 
-    # Climat spécifique
-    if climat == "froid":
-        objets.add("manteau")
-    elif climat == "chaud":
-        objets.add("chapeau")
+    # Climate-specific items
+    if climate == "cold":
+        items.add("coat")
+    elif climate == "hot":
+        items.add("hat")
 
     return {
-        "type_voyage": type_v,
-        "climat": climat,
-        "duree": duree,
-        "objets": list(objets)
+        "travel_type": travel_type,
+        "climate": climate,
+        "duration": duration,
+        "items": list(items)
     }
 
-# Créer 100 exemples
-dataset = [generer_exemple() for _ in range(100)]
+# Create 100 examples
+dataset = [generate_example() for _ in range(100)]
 df = pd.DataFrame(dataset)
 
 # -------------------------------
-# 2. Préparation des données
+# 2. Data preparation
 # -------------------------------
 
-X = df[["type_voyage", "climat", "duree"]]
-y = df["objets"]
+X = df[["travel_type", "climate", "duration"]]
+y = df["items"]
 
-# Encodage des labels multi-objets
+# Multi-label encoding
 mlb = MultiLabelBinarizer()
 Y = mlb.fit_transform(y)
 
-# Encodage des features
+# Feature encoding
 preprocessor = ColumnTransformer(
     transformers=[
-        ('cat', OneHotEncoder(), ["type_voyage", "climat"])
+        ('cat', OneHotEncoder(), ["travel_type", "climate"])
     ],
-    remainder='passthrough'  # durée reste inchangée
+    remainder='passthrough'  # duration remains unchanged
 )
 
 # -------------------------------
-# 3. Modèle
+# 3. Model
 # -------------------------------
 
 pipeline = Pipeline(steps=[
@@ -81,24 +81,24 @@ pipeline = Pipeline(steps=[
 pipeline.fit(X, Y)
 
 # -------------------------------
-# 4. Exemple de prédiction
+# 4. Prediction example
 # -------------------------------
 
-exemple = pd.DataFrame([{
-    "type_voyage": "plage",
-    "climat": "chaud",
-    "duree": 7
+example = pd.DataFrame([{
+    "travel_type": "beach",
+    "climate": "hot",
+    "duration": 7
 }])
 
-pred = pipeline.predict(exemple)
-objets_predits = mlb.inverse_transform(pred)
+pred = pipeline.predict(example)
+predicted_items = mlb.inverse_transform(pred)
 
-print("Objets recommandés :", objets_predits[0])
+print("Recommended items:", predicted_items[0])
 
 # -------------------------------
-# 5. Sauvegarde du modèle
+# 5. Model saving
 # -------------------------------
 
 joblib.dump(pipeline, "packing_model.pkl")
 joblib.dump(mlb, "packing_mlb.pkl")
-print("Modèle sauvegardé.")
+print("Model saved.")
