@@ -22,9 +22,9 @@ if os.path.exists(FEEDBACK_FILE):
     with open(FEEDBACK_FILE, "r", encoding="utf-8") as f:
         feedback_lines = f.readlines()
         feedback_data = [json.loads(line.strip()) for line in feedback_lines]
-    # Merge data
+    # Merge data with translated keys
     data += [{
-        "type_voyage": d["type_voyage"],
+        "travel_type": d["type_voyage"],
         "climate": d["climat"],
         "duration": d["duree"],
         "items": d["objets_recommandes"]
@@ -42,7 +42,7 @@ y = mlb.fit_transform(df["items"])
 
 # 5. Pipeline with OneHotEncoder + RandomForest
 preprocessor = ColumnTransformer(transformers=[
-    ("cat", OneHotEncoder(), ["type_voyage", "climate"])
+    ("cat", OneHotEncoder(), ["travel_type", "climate"])
 ], remainder="passthrough")
 
 pipeline = Pipeline([
@@ -51,7 +51,7 @@ pipeline = Pipeline([
 ])
 
 # 6. Training
-pipeline.fit(df[["type_voyage", "climate", "duration"]], y)
+pipeline.fit(df[["travel_type", "climate", "duration"]], y)
 
 # 7. Save
 joblib.dump(pipeline, MODEL_FILE)

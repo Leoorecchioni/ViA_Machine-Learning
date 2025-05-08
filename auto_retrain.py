@@ -29,7 +29,16 @@ def load_data():
     except FileNotFoundError:
         feedback = []
 
-    return original + feedback, feedback
+    # Rename keys to match English format
+    def transform(entry):
+        return {
+            "travel_type": entry.get("type_voyage", entry.get("travel_type")),
+            "climate": entry.get("climat", entry.get("climate")),
+            "duration": entry.get("duree", entry.get("duration")),
+            "items": entry.get("objets", entry.get("items"))
+        }
+
+    return [transform(d) for d in original + feedback], [transform(fb) for fb in feedback]
 
 def backup_feedback(feedback):
     if not feedback:
@@ -50,11 +59,11 @@ def train_model(data, feedback):
 
     # Binarization
     mlb = MultiLabelBinarizer()
-    y = mlb.fit_transform(df["objets"])
+    y = mlb.fit_transform(df["items"])
 
     # Preprocessing
     preprocessor = ColumnTransformer(transformers=[
-        ("cat", OneHotEncoder(), ["type_voyage", "climat"])
+        ("cat", OneHotEncoder(), ["travel_type", "climate"])
     ], remainder="passthrough")
 
     pipeline = Pipeline([
@@ -62,7 +71,7 @@ def train_model(data, feedback):
         ("classifier", RandomForestClassifier(n_estimators=100, random_state=42))
     ])
 
-    pipeline.fit(df[["type_voyage", "climat", "duree"]], y)
+    pipeline.fit(df[["travel_type", "climate", "duration"]], y)
 
     joblib.dump(pipeline, "packing_model.pkl")
     joblib.dump(mlb, "packing_mlb.pkl")

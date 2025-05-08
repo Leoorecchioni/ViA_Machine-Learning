@@ -5,64 +5,63 @@ from flask_cors import CORS
 import json
 from datetime import datetime
 
-# Charger le modèle et le MultiLabelBinarizer
+# Load the model and MultiLabelBinarizer
 model = joblib.load("packing_model.pkl")
 mlb = joblib.load("packing_mlb.pkl")
 
-# Fichier pour stocker les retours utilisateurs
-FEEDBACK_FILE = "feedback_data.jsonl"
+# File for storing user feedback
+FEEDBACK_FILE = "feedback_data.json"
 
-# Initialisation de Flask
+# Initialize Flask
 app = Flask(__name__)
-CORS(app)  # Permet les requêtes depuis le frontend React Native
+CORS(app)  # Allows requests from the React Native frontend
 
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json()
 
-    # Vérification des champs requis
-    required_fields = {"type_voyage", "climat", "duree"}
+    # Check for required fields
+    required_fields = {"travel_type", "climate", "duration"}
     if not required_fields.issubset(data):
-        return jsonify({"error": "Champs manquants"}), 400
+        return jsonify({"error": "Missing required fields"}), 400
 
-    # Préparation des données pour le modèle
+    # Prepare data for prediction
     df = pd.DataFrame([{
-        "type_voyage": data["type_voyage"],
-        "climat": data["climat"],
-        "duree": data["duree"]
+        "travel_type": data["travel_type"],
+        "climate": data["climate"],
+        "duration": data["duration"]
     }])
 
-    # Prédiction
+    # Make prediction
     prediction = model.predict(df)
-    objets = mlb.inverse_transform(prediction)
+    items = mlb.inverse_transform(prediction)
 
-    return jsonify({"objets_recommandes": list(objets[0])})
+    return jsonify({"recommended_items": list(items[0])})
 
 @app.route("/feedback", methods=["POST"])
 def feedback():
     data = request.get_json()
 
-    # Vérifier les champs
-    required_fields = {"type_voyage", "climat", "duree", "objets"}
+    # Check for required fields
+    required_fields = {"travel_type", "climate", "duration", "items"}
     if not required_fields.issubset(data):
-        return jsonify({"error": "Champs manquants dans le feedback"}), 400
+        return jsonify({"error": "Missing fields in feedback"}), 400
 
-    # Charger les anciens feedbacks ou initialiser
+    # Load existing feedback or initialize
     try:
-        with open("feedback_data.json", "r", encoding="utf-8") as f:
+        with open(FEEDBACK_FILE, "r", encoding="utf-8") as f:
             feedback_data = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         feedback_data = []
 
-    # Ajouter le nouveau feedback
+    # Append new feedback
     feedback_data.append(data)
 
-    # Sauvegarder
-    with open("feedback_data.json", "w", encoding="utf-8") as f:
+    # Save feedback
+    with open(FEEDBACK_FILE, "w", encoding="utf-8") as f:
         json.dump(feedback_data, f, ensure_ascii=False, indent=2)
 
-    return jsonify({"message": "Feedback reçu"}), 200
-
+    return jsonify({"message": "Feedback received"}), 200
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
