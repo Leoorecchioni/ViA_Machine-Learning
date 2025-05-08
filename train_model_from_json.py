@@ -6,33 +6,33 @@ from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
-# Charger les données
+# Load data
 with open("packing_data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
-# Créer un DataFrame
+# Create a DataFrame
 df = pd.DataFrame(data)
 
-# Binariser les objets (multi-label)
+# Binarize items (multi-label)
 mlb = MultiLabelBinarizer()
 y = mlb.fit_transform(df["objets"])
 
-# Encodage des colonnes catégorielles
+# Encode categorical columns
 preprocessor = ColumnTransformer(transformers=[
     ("cat", OneHotEncoder(), ["type_voyage", "climat"])
-], remainder="passthrough")  # garde 'duree'
+], remainder="passthrough")  # keep 'duree' as is
 
-# Pipeline avec prétraitement + modèle
+# Pipeline with preprocessing + model
 pipeline = Pipeline([
     ("preprocessing", preprocessor),
     ("classifier", RandomForestClassifier(n_estimators=100, random_state=42))
 ])
 
-# Entraînement
+# Training
 pipeline.fit(df[["type_voyage", "climat", "duree"]], y)
 
-# Sauvegarde du modèle et du MultiLabelBinarizer
+# Save the model and MultiLabelBinarizer
 joblib.dump(pipeline, "packing_model.pkl")
 joblib.dump(mlb, "packing_mlb.pkl")
 
-print("✅ Modèle entraîné et sauvegardé avec succès.")
+print("✅ Model trained and saved successfully.")
